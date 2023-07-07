@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="head_con">
+        <h1>MEMORY GAME</h1>
+        <h2>Click any card to begin</h2>
+    </div>
+
+    <div class="wrapper">
+        <div class="cards" id="begin_game">
+            <div class="card">
+                <img class="no_img" src="images/img_1.png" alt="angular">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_3.png" alt="html">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_4.png" alt="jquery" style="width:80%">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_2.png" alt="css">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_6.png" alt="react">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_5.png" alt="js">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_2.png" alt="css">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_5.png" alt="js">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_3.png" alt="html">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_1.png" alt="angular">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_4.png" alt="jquery" style="width:80%">
+            </div>
+            <div class="card">
+                <img class="no_img" src="images/img_6.png" alt="react">
+            </div>
+        </div>
+    </div>
+
+    <div class="score">
+     <p class="clicks">Time: <span id="mins">00</span>:<span id="secs">00</span>&emsp;Total Clicks: <span id="tot_click">0</span></p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
