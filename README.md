@@ -1,4 +1,4 @@
-# Pairs-Game
+# Memory-Card-Game
 Created 2 Pair Game utilizing HTML, CSS, JS and jQuery.
 
 # Output
